@@ -1,0 +1,44 @@
+#depr: debtree
+sudo apt install apt-rdepends
+sudo apt install rdepends
+
+#apt-cache search {pkg}
+#apt-cache policy {pkg}
+#apt-cache show
+#apt-cache showpkg
+#apt-cache depends
+#apt-cache pkgnames
+
+#apt-get install {pkg} --no-upgrade
+#apt-get install {pkg} --only-upgrade
+#apt-get download {pkg}
+#apt-get check
+#apt-get autoclean
+#apt-get dist-upgrade
+
+#depr: sudo apt install apptitude
+
+#dpkg-deb !!
+#dpkg-reconfigure
+#dpkg --configure -a #config all unconfigured ones
+
+#dpkg-buildpackage
+
+#ppa-purge
+
+#mkdir -p ~/.local/share/nautilus/scripts
+
+#depr: sudo apt install graphviz
+#python3-graphviz
+
+#sudo apt-rdepends --dotty python3-pip | circo -Tsvg > Desktop/1.svg
+
+#lsb_release -sc #see ubuntu your realease name
+
+#/etc/apt/sources /etc/apt/sources.list #manual
+#/var/lib/apt/lists #apt update
+#/etc/apt/trusted.gpg.d #apt-key
+#ppa (personal package archive)# best with add-apt-repository
+ #before usage
+  sudo apt install software-properties-common
+  sudo apt install python-software-properties
